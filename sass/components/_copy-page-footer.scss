@@ -1,0 +1,171 @@
+.page-footer {
+  display: flex;
+  background-color: $dark-grey;
+}
+
+.footer-container {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  align-items: baseline;
+}
+
+.footer-logo {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.logo--footer-second-part {
+  color: $white;
+}
+
+.address {
+  display: block;
+  margin-left: 0px;
+}
+
+.address__title {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: inherit;
+  color: $white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  font-style: normal;
+}
+
+.address__contacts {
+  display: block;
+  flex-direction: column;
+  margin-top: 9px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  list-style-type: none; /* Убираем маркеры */
+}
+
+.address__item {
+  display: flex;
+
+  &:last-child {
+    margin-top: 9px;
+  }
+}
+
+
+
+.address__link {
+  font-family: inherit;
+  color: $white-op62;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.connect-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.connect-container__list {
+  display: flex;
+}
+
+.connect-container__item:not(:first-child) {
+  margin-left: 10px;
+}
+
+.connect-container__icon {
+  width: 20px;
+  height: 20px;
+}
+
+.connect-container__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: $foot-network-grey;
+  fill: $white;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: $blue;
+    outline: none;
+  }
+}
+
+.sign {
+  margin-left: 93px;
+}
+
+.sign__title {
+  text-transform: uppercase;
+  color: $white;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.sign__box {
+  display: flex;
+  margin-top: 20px;
+}
+
+.sign__input {
+  width: 358px;
+  height: 50px;
+  background-color: transparent;
+  color: $white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 15px 16px;
+}
+
+.sign__button {
+  display: flex;
+  margin-left: 12px;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 28px 10px 29px;
+  align-items: center;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  text-align: center;
+  color: $white;
+  background-color: $blue;
+  cursor: pointer;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    background-color: $blue-hover;
+  }
+}
+
+.sign__icon {
+  margin-left: 10px;
+  fill: $white;
+}
