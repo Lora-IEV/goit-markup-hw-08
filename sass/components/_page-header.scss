@@ -116,7 +116,7 @@
     margin-left: 305px;
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     display: none;
   }
 }
@@ -176,4 +176,20 @@
   height: 16px;
   margin-right: 10px;
   fill: currentColor;
+}
+
+.page-header__button {
+  background-color: $white;
+  margin-left: auto;
+  padding: 0;
+  border: none;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+
+  &:focus,
+  &:hover {
+    fill: $blue;
+  }
 }

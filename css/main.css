@@ -201,7 +201,7 @@ img {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .header-address {
     display: none;
   }
@@ -268,6 +268,23 @@ img {
   height: 16px;
   margin-right: 10px;
   fill: currentColor;
+}
+
+.page-header__button {
+  background-color: white;
+  margin-left: auto;
+  padding: 0;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .page-header__button {
+    display: none;
+  }
+}
+
+.page-header__button:focus, .page-header__button:hover {
+  fill: #2196f3;
 }
 
 .hero {
@@ -1288,5 +1305,23 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: underline;
+}
+
+.menu-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 32px;
+  background-color: white;
+  z-index: 999;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.menu-nav.is-open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 /*# sourceMappingURL=main.css.map */
