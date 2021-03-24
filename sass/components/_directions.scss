@@ -1,7 +1,10 @@
 .directions {
   flex-direction: column;
-  padding-top: 94px;
   padding-bottom: 94px;
+
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
 }
 
 .directions__title {
