@@ -1,5 +1,5 @@
 .hero {
-  max-width: 480px;
+  // max-width: 480px;
   height: 400px;
   align-items: center;
   background-image: linear-gradient($dark-grey-op40, $dark-grey-op40),
@@ -22,7 +22,7 @@
   }
 
   @media screen and (min-width: 768px) {
-    max-width: 768px;
+    // max-width: 768px;
     background-image: linear-gradient($dark-grey-op40, $dark-grey-op40),
       url(../images/hero-tablet.jpg);
 
