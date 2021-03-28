@@ -51,6 +51,7 @@ img {
 
 .portfolio-container {
   min-width: 320px;
+  max-width: 480px;
   padding: 60px 15px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1646,6 +1647,10 @@ img {
 }
 
 .menu-nav__link:hover, .menu-nav__link:focus {
+  color: #2196f3;
+}
+
+.menu-nav__link--current {
   color: #2196f3;
 }
 
