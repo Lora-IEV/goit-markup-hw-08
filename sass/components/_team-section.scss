@@ -2,15 +2,20 @@
   background-color: $light-grey-white;
   margin-left: auto;
   margin-right: auto;
-}
-
-.team {
   padding: 60px 0;
 
   @media screen and (min-width: 1200px) {
     padding: 94px 0;
   }
 }
+
+// .team {
+//   padding: 60px 0;
+
+//   @media screen and (min-width: 1200px) {
+//     padding: 94px 0;
+//   }
+// }
 
 .team__title {
   margin-top: 0px;
