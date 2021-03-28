@@ -3,11 +3,13 @@
   top: 0;
   left: 0;
   width: 100vw;
-  min-width: 320px;
+  // min-width: 320px;
   height: 100vh;
   padding: 48px 40px;
   background-color: $white;
+  overflow-y: scroll;
   z-index: 999;
+  opacity: 0;
   transform: translateX(100%);
 
   @media screen and (min-width: 768px) {
@@ -19,6 +21,7 @@
 
 .menu-nav.is-open {
   transform: translateX(0);
+  opacity: 1;
 
   @media screen and (min-width: 768px) {
     display: none;
